@@ -1,0 +1,71 @@
+# Basic settings
+# Need to change to an appropriate Title sed in all setting and paraeters
+title: Services
+description: "Security is a business requirement. Protecting personal data is a business imperative. We provide the expertise you need to protect your data and business."
+title_name: dario.com
+author: dario.com Staff
+# Language format language_TERRITORY. Default is en_US
+lang: en_US
+# website logos, images & icons
+header-img: img/home.jpg
+logo: img/chklst.png
+image: "img/home.jpg"
+# urls
+baseurl: "/services"
+url: "https://dario.com"
+
+# copyright text in footer
+copyright_name: dario.com
+
+# email address
+email: contact@dario.com
+email_username: contact@dario.com
+# email address in privacy policy
+email_privacy: privacy@dario.com
+
+# search tracking id for dario.com
+google_tracking_id: UA-98131817-2
+
+webmaster_verifications:
+  google: DQehZZh2Dx2G-CEfmIed3hixR8DokYqvKiJwWcn5IiM
+  bing:
+  alexa:
+  yandex:
+  baidu:
+
+# Social/SEO
+twitter_username: darioS3C
+github_username:
+facebook_username:
+
+twitter:
+  username: darioS3C
+
+facebook:
+ app_id:
+ publisher:
+ admins:
+
+# Social/SEO defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: img/chklst.png
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 8
+
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+collections:
+  services:
+    output: true
+#  survey:
+#    output: true
+
+# gems
+gems: [jekyll-paginate, jekyll-feed, jekyll-seo-tag]
